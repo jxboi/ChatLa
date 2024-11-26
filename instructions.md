@@ -60,6 +60,7 @@ Backend Setup
 2. populate the Data
 3. Add CreatePostDto and UpdatePostDto
 4. populate the Filters including FileUploadOperationFilter
+5. use environment variable DATABASE_URL to connect to database
 
 
 Folder Structure
