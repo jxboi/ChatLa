@@ -60,6 +60,6 @@ public class CommentsController : BaseApiController
 
 public class CommentCreateDto
 {
-    public string Content { get; set; }
-    public string Username { get; set; }
+    public required string Content { get; set; }
+    public required string Username { get; set; }
 } 
